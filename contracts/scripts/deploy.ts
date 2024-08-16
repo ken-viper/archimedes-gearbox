@@ -44,7 +44,7 @@ async function findbalanceSlot(MockToken: any, user: any) {
 }
 
 const Main = async () => {
-  const signers = await ethers.getSigners();
+  const signers = await ethers.getSigners(); 
   const user = signers[0];
 
   //Get mock token
